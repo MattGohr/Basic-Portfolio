@@ -1,0 +1,34 @@
+* {
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+
+div.container {
+  width: 100%;
+  border: 2px;
+}
+
+header {
+  background-color: blue;
+}
+
+footer {
+  background: darkgrey;
+  text-align: center;
+}
+
+h1 {
+  float: left;
+  color: white;
+  background-color: grey;
+
+ul.li {
+  list-style-type: none;
+  padding: 0;
+  list-style-position: outside;
+  color: pink;
+  position: relative;
+}
+
+}
