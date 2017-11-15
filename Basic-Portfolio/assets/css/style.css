@@ -4,31 +4,45 @@
   color: black;
 }
 
+
 div.container {
   width: 100%;
   border: 2px;
 }
 
 header {
-  background-color: blue;
+  background-color: black;
+  z-index: 2;
 }
 
 footer {
   background: darkgrey;
   text-align: center;
+  z-index: 1;
+}
+
+header {
+  padding: 30px;
+  content: 100px;
 }
 
 h1 {
   float: left;
   color: white;
   background-color: grey;
-
-ul.li {
-  list-style-type: none;
-  padding: 0;
-  list-style-position: outside;
-  color: pink;
-  position: relative;
 }
 
+li {
+  display: inline-block;
+  color: darkgrey;
+  text-decoration-color: darkgrey;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  padding-right: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  color: darkgrey;
 }
