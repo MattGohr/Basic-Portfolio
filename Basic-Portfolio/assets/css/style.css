@@ -13,6 +13,8 @@ div.container {
 header {
   background-color: black;
   z-index: 2;
+  height: 200px;
+  width: 100%;
 }
 
 footer {
@@ -21,10 +23,6 @@ footer {
   z-index: 1;
 }
 
-header {
-  padding: 30px;
-  content: 100px;
-}
 
 h1 {
   float: left;
