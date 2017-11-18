@@ -6,16 +6,23 @@
     position: relative;
 }
 
-h1, div.description  {
-    margin-left: 15%
+div.float-margin-left  {
+    margin-left: 10%;
+}
+
+div.float-margin-right{
+    margin-right: 10%;
 }
 
 div.line {
-    height: 2px;
+    height: 20px;
     color: black;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
 }
 
-div.description {
+#left-main-border {
     height: 400px;
     width: 650px;
     padding-left: 20px;
@@ -24,7 +31,9 @@ div.description {
     border-width: 1px; 
     float: left;
     margin-bottom: 40px;
+    margin-top: 10px;
 }
+    
 div.container {
     width: 100%;
     height: 100%;
@@ -48,19 +57,17 @@ div.right-small {
 }
 
 div.background {
-    width: 100%;
     height: 100%;
     background-color: lightcyan;
-    
+    width: 100%;
+
 }
 
-img {
-    
-}
 header {
-  background-color: grey;
-  height: 80px;
-  width: 100%;
+    margin-bottom: 10px;
+    background-color: grey;
+    height: 80px;
+    width: 100%;
 }
 
 /*margins for all content */
@@ -68,6 +75,7 @@ header {
 h2 {
     text-align: left;
     font-size: 30px;
+    margin: 20px;
 }
 
 footer {
@@ -75,7 +83,7 @@ footer {
     text-align: center;
     width: 100%;
     height: 90px;
-    //float: left;
+    float: left;
 }
 
 #line-header{
@@ -85,23 +93,23 @@ footer {
 }
 
 h1 {
-  float: left;
-  background-color: turquoise;
+    float: left;
+    background-color: turquoise;
     margin-top: 3px;
     padding: 20px;
     color: white;
 }
 
 li {
-  display: inline-block;
-  color: blueviolet;
-  
+    display: inline-block;
+    color: black;
 }
 
 ul {
-  list-style: none;
-  float: right;
-  margin: 20px;
-  padding: 10px;
-  color: darkgrey;
+    list-style: none;
+    float: right;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    color: darkgrey;
 }

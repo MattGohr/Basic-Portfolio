@@ -16,3 +16,9 @@
 p.bold-text:active {
     background-color: aqua;
 }
+
+a.link1:hover {
+    color: aqua;
+}
+
+a.link2:
